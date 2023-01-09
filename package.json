@@ -1,39 +1,45 @@
 {
-	"name": "sassp",
-	"description": "Create basics sass partials structure folder",
-	"version": "0.0.1",
-	"license": "UNLICENSED",
-	"bin": {
-		"sassp": "./bin/index.js"
-	},
-	"author": {
-		"name": "aa-Aliane",
-		"email": "aaliane781@gmail.com",
-		"url": "aazaz"
-	},
-	"keywords": [
-		"sassp",
-		"aa-Aliane"
-	],
-	"files": [
-		"index.js",
-		"utils"
-	],
-	"scripts": {
-		"format": "prettier --write \"./**/*.{js,json}\""
-	},
-	"dependencies": {
-		"axios": "^1.2.2",
-		"chalk": "^4.1.2",
-		"cli-alerts": "^1.2.2",
-		"cli-handle-error": "^4.4.0",
-		"cli-handle-unhandled": "^1.1.1",
-		"cli-meow-help": "^3.1.0",
-		"cli-welcome": "^2.2.2",
-		"meow": "^9.0.0",
-		"scss-parser": "^1.0.6"
-	},
-	"devDependencies": {
-		"prettier": "^2.8.2"
-	}
+  "name": "sassp",
+  "description": "Create basics sass partials structure folder",
+  "version": "0.0.0-development",
+  "license": "UNLICENSED",
+  "bin": {
+    "sassp": "./bin/index.js"
+  },
+  "author": {
+    "name": "aa-Aliane",
+    "email": "aaliane781@gmail.com",
+    "url": "aazaz"
+  },
+  "keywords": [
+    "sassp",
+    "aa-Aliane"
+  ],
+  "files": [
+    "index.js",
+    "utils"
+  ],
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "semantic-release": "semantic-release --branches main"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chalk": "^4.1.2",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^3.1.0",
+    "cli-welcome": "^2.2.2",
+    "meow": "^9.0.0",
+    "scss-parser": "^1.0.6"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.2",
+    "semantic-release": "^20.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aa-Aliane/sassp.git"
+  }
 }
