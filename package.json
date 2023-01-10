@@ -9,7 +9,7 @@
   "author": {
     "name": "aa-Aliane",
     "email": "aaliane781@gmail.com",
-    "url": "aaza"
+    "url": "aaa"
   },
   "keywords": [
     "sassp",
@@ -22,7 +22,7 @@
   "scripts": {
     "format": "prettier --write \"./**/*.{js,json}\"",
     "semantic-release": "semantic-release",
-    "commit": "git add . && git-cz",
+    "commit": "git add . && git cz",
     "test": "ls -l"
   },
   "dependencies": {
