@@ -23,7 +23,7 @@
     "format": "prettier --write \"./**/*.{js,json}\"",
     "semantic-release": "semantic-release",
     "commit": "git add . && git cz && git push",
-    "commit-r": "git add . && git cz && git push -u release",
+    "commit-r": "git add . && git cz && git push -b release",
     "test": "ls -l"
   },
   "dependencies": {
