@@ -32,7 +32,7 @@ jobs:
   release:
     permissions:
       contents: write
-      issues: wrtie
+      issues: write
       pull-requests: write
     runs-on: ubuntu-latest
     strategy:
