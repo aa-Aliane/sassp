@@ -24,7 +24,7 @@
     "semantic-release": "semantic-release",
     "commit": "git add . && git cz && git push",
     "commit-r": "git add . && git cz && git push --set-upstream origin release",
-    "test": "ls -l"
+    "test": "ls"
   },
   "dependencies": {
     "axios": "^1.2.2",
