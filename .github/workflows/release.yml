@@ -30,7 +30,10 @@ jobs:
     - run: npm test
   
   release:
-  
+    permissions:
+      contents: write
+      issues: wrtie
+      pull-requests: write
     runs-on: ubuntu-latest
     strategy:
       matrix:
