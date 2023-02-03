@@ -21,7 +21,6 @@
   ],
   "scripts": {
     "format": "prettier --write \"./**/*.{js,json}\"",
-    "semantic-release": "semantic-release --branches main",
     "commit": "git add . && git cz && git push",
     "test": "ls -l"
   },
